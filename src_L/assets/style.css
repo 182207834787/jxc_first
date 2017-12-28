@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    font-size: 20px;
+    font-family: '微软雅黑';
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background: #5E9FA1;
+    color: #fff;
+    line-height: 50px;
+}
+.header h1{
+    float: left;
+    padding-left: 10px;
+}
+.header h2{
+    float: right;
+    padding-right: 10px;
+}
+.section-content{
+    float: left;
+    width: 70%;
+}
+.section-content h1{
+    margin: 20px 20px;
+}
+.section-content h2,h3{
+    margin: 20px 20px;
+}
+.section-content h3{
+    margin-left: 35px;
+    font-size: 20px;
+}
+.section-content h4{
+    margin-left: 35px;
+  
+}
+.section-content h2 span,h4 span{
+  color: #FDD290;
+  margin-right: 10px;
+}
+.section-content h2 b,h3 b,h4 b{
+  font-weight: normal;
+
+  margin-right: 20px;
+ 
+}
+.section-content h4 b{
+    margin-right: 40px;
+}
+el-radio{
+    font-size: 20px;
+}
+el-input{
+    margin-left: 50px;
+}
+el-menu-item{
+    font-size: 16px;
+}
+.textarea{
+    margin-top: 25px;
+   
+}
+.textarea p{
+    margin-right: 40px;
+    float: left;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+h4{
+    margin-top: 25px;
+}
+h4 p{
+    float: left;
+    margin-right: 40px;
+    margin-left: 20px;
+   
+}
+.el-upload__tip{
+    margin-left: 120px;
+}
